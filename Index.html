@@ -6,16 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechConnections</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/f4fbfd3dd2.js" crossorigin="anonymous"></script>
 </head>
+<style>
+    .baneer {
+        background-image: url(./src/img-fundo.jpg);
+    }
+</style>
 
 <body>
-    <header class="bg-[#F2EDF5] w-screen h-50 px-48">
-        <img src="" alt="">
-        <a href="">Manutenção</a>
-        <a href="">Eletrica</a>
-        <a href="">Infraestrutura</a>
-        <a href="">CFTV</a>
-        <img src="" alt=""></header>
+    <header class="bg-[#F2EDF5] fixed top-0 w-screen h-16 px-48 py-1 flex justify-between items-center">
+        <div class="logo h-2/3 w-1/3">
+            <img src="./src/Design_sem_nome-removebg-preview.png" class="h-full" alt="">
+        </div>
+        <div class="nav w-1/3 flex justify-between px-12">
+            <a href="" class="font-bold hover:text-purple-700 transition duration-300 ease-in-out">Manutenção</a>
+            <a href="" class="font-bold hover:text-purple-700 transition duration-300 ease-in-out">Eletrica</a>
+            <a href="" class="font-bold hover:text-purple-700 transition duration-300 ease-in-out">Infraestrutura</a>
+            <a href="" class="font-bold hover:text-purple-700 transition duration-300 ease-in-out">CFTV</a>
+        </div>
+        <div class="void w-1/3"></div> <!-- classe vazia para ocupar espaço -->
+    </header>
+    <div class="banner px-48 py-20 mt-16 text-white bg-cover" style="background-image: url(./src/img-fundo.jpg);">
+        <!-- substituir esse fundo merda por uma imagem boa e colocar uma div por toda preta cima com opacidade baixa -->
+        <p class="font-bold text-9xl flex items-center"> TECH <i
+                class="fa-solid fa-location-dot text-7xl mt-4 ml-12 hover:text-purple-700 transition duration-300 ease-in-out cursor-pointer">
+            </i> <i
+                class="fa-solid fa-envelope text-7xl mt-4 ml-12 hover:text-purple-700 transition duration-300 ease-in-out cursor-pointer"></i>
+            <i
+                class="fa-brands fa-linkedin text-7xl mt-4 ml-12 hover:text-purple-700 transition duration-300 ease-in-out cursor-pointer"></i>
+        </p>
+        <p class="font-bold text-9xl text-purple-700 pb-6">Connections</p>
+        <p class="text-center w-1/2">Somos uma empresa dedicada a manter você e seus sistemas conectados de forma
+            confiável e eficiente. Com nossa
+            expertise em Manutenção de Computadores, CFTV, Infraestrutura e Eletricidade básica, estamos comprometidos
+            em oferecer soluções tecnológicas de ponta para atender às suas necessidades. Nossa equipe altamente
+            qualificada está pronta para garantir que seus dispositivos operem sem interrupções, sua segurança seja
+            reforçada e sua infraestrutura esteja sólida. Na TechConnections, a sua satisfação é nossa prioridade número
+            um. Conecte-se conosco e experimente um mundo de serviços confiáveis e inovação contínua.</p>
+        <div class="button w-1/2 flex justify-center pt-6">
+            <a href=""
+                class="p-5 bg-purple-700 rounded-lg hover:bg-purple-600 transition duration-300 ease-in-out cursor-pointer">CONTRATE</a>
+        </div>
+    </div>
+    <section class="flex justify-between bg-[#F2EDF5] px-48 py-24">
+        <div class="card rounded-lg flex flex-col bg-[#FDFBFF] p-7 m-2 w-1/4"><img src="./src/icon_manutencao.png"
+                class="h-1/3 px-20" alt="">
+            <p class="font-bold text-center text-lg p-3">Manutenção</p>
+            <p class="h-2/3">Obtenha o máximo desempenho do seu computador com o nosso serviço de manutenção especializado. Nossos
+                técnicos experientes cuidarão de todos os aspectos, desde a resolução de problemas até a otimização do
+                sistema, garantindo que você volte a desfrutar de uma experiência de computação rápida e suave.
+                Deixe-nos cuidar do seu computador para que você possa se concentrar no que realmente importa.</p>
+        </div>
+        <div class="card rounded-lg flex flex-col bg-[#FDFBFF] p-7 m-2 w-1/4"><img src="./src/icon_cftv.png"
+                class="h-1/3 px-20" alt="">
+            <p class="font-bold text-center text-lg p-3">CFTV</p>
+            <p class="h-2/3">Eleve a segurança de sua propriedade com nosso serviço de CFTV. Nossa equipe capacitada oferece soluções
+                completas de instalação e manutenção de sistemas de videovigilância. Proteja sua casa ou negócio com
+                nossas tecnologias de ponta e expertise comprovada. Deixe-nos cuidar da sua segurança para que você
+                possa focar no que é importante.</p>
+        </div>
+        <div class="card rounded-lg flex flex-col bg-[#FDFBFF] p-7 m-2 w-1/4"><img src="./src/icon_eletricidade.png"
+                class="h-1/3 px-20" alt="">
+            <p class="font-bold text-center text-lg p-3">Elétrica</p>
+            <p class="h-2/3">Garanta um sistema elétrico seguro e confiável com nosso serviço de manutenção especializada. Nossos
+                profissionais experientes estão prontos para inspecionar, reparar e manter sua infraestrutura elétrica,
+                mantendo seus circuitos funcionando sem interrupções. Sua segurança é nossa prioridade, e nossa equipe
+                está preparada para lidar com qualquer desafio elétrico. Deixe-nos cuidar da sua rede elétrica para que
+                você possa aproveitar a energia com tranquilidade.</p>
+        </div>
+        <div class="card rounded-lg flex flex-col bg-[#FDFBFF] p-7 m-2 w-1/4"><img src="./src/icon_infraestrutura.png"
+                class="h-1/3 px-20" alt="">
+            <p class="font-bold text-center text-lg p-3">Infraestrutura</p>
+            <p class="h-2/3">Estabeleça uma conectividade confiável com nosso serviço de infraestrutura de rede. Nossa equipe de
+                especialistas está pronta para projetar, implementar e manter uma rede eficiente, garantindo que seus
+                dados fluam de maneira contínua. Seja para casa ou negócios, nossa abordagem personalizada cria uma base
+                sólida para comunicação digital, permitindo que você permaneça conectado e produtivo.</p>
+        </div>
+    </section>
 </body>
 
 </html>
