@@ -9,8 +9,31 @@
     <script src="https://kit.fontawesome.com/f4fbfd3dd2.js" crossorigin="anonymous"></script>
 </head>
 <style>
+    /* ===== Scrollbar CSS ===== */
+    /* Firefox */
+    * {
+        scrollbar-width: auto;
+        scrollbar-color: #2b2b2b #f2edf5;
+    }
+
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 16px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: #f2edf5;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: #2b2b2b;
+        border-radius: 10px;
+        border: 3px solid #f2edf5;
+    }
+
     .baneer {
         background-image: url(./src/img-fundo.jpg);
+
     }
 </style>
 
